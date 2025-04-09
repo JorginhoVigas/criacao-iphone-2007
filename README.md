@@ -1,18 +1,37 @@
-## Getting Started
+# iPhone
+## Sobre o Projeto
+Este projeto simula o funcionamento de um iPhone, utilizando os princípios da Programação Orientada a Objetos (POO). O iPhone implementa funcionalidades de um reprodutor musical, um aparelho telefônico e um navegador de internet.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Funcionalidades
+O iPhone conta com as seguintes operações:
 
-## Folder Structure
+- **Tocar música** 🎵
+- **Pausar música**
+- **Selecionar uma música específica**
+- **Ligar para um número** 📞
+- **Atender ligação**
+- **Iniciar correio de voz**
+- **Exibir uma página da web** 🌐
+- **Adicionar uma nova aba**
+- **Atualizar a página atual**
 
-The workspace contains two folders by default, where:
+## Regras de Implementação
+- As funcionalidades foram organizadas em **interfaces separadas**, de acordo com a responsabilidade:
+  - `ReprodutorMusical`
+  - `AparelhoTelefonico`
+  - `NavegadorInternet`
+- A classe `iPhone` implementa todas essas interfaces e simula os comportamentos de forma independente.
+- Cada método exibe uma mensagem no console simulando a ação.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Tecnologias Utilizadas
+- **Java**
+- **Programação Orientada a Objetos (POO)**
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Autor
+Desenvolvido por **Jorginho Vigas**.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 📊 Diagrama UML
 
-## Dependency Management
+Abaixo está o diagrama UML representando a estrutura do projeto iPhone e suas interfaces:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+![Diagrama UML do iPhone](Editor _ Mermaid Chart-2025-04-09-192238.png)
