@@ -1,3 +1,7 @@
+import interfaces.AparelhoTelefonico;
+import interfaces.NavegadorInternet;
+import interfaces.ReprodutorMusical;
+
 public class iPhone implements ReprodutorMusical, AparelhoTelefonico, NavegadorInternet {
     @Override
     public void tocar() {
