@@ -34,4 +34,4 @@ Desenvolvido por **Jorginho Vigas**.
 
 Abaixo está o diagrama UML representando a estrutura do projeto iPhone e suas interfaces:
 
-![Diagrama UML do iPhone](diagrama-uml-iphone.png)
+![Diagrama UML do iPhone](Editor _ Mermaid Chart-2025-04-09-192238.png)
